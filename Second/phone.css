@@ -1,0 +1,83 @@
+.navbar {
+  flex-direction: column;
+  /* background-color: cyan; */
+}
+
+.logo {
+  height: 7vh;
+}
+
+ .navbar ul {
+  width: 100%;
+} 
+
+
+.navlinks li {
+  
+  margin: 0px;
+}
+
+.btn {
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  margin: 11px;
+  border-radius: 7px;
+  cursor: pointer;
+
+}
+
+
+
+#services {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#services .box {
+  width: 100%;
+  margin: 5px;
+}
+
+#home {
+  height: 63vh;
+}
+
+#home p {
+  font-size: 1rem;
+  padding: 0px 2px;
+}
+
+.client-items img {
+ 
+  width: 40%;
+  /* height: 400%; */
+  margin: auto;
+  display: block;
+  /* background-color: red; */
+}
+
+.h-secondary {
+  font-size: 1.4rem;
+}
+
+.h-primary {
+  font-size: 2rem;
+}
+
+.contact-box label {
+  font-size: 1.1rem;
+}
+
+.contact-box form {
+  width: 85%;
+}
+
+body {
+  /* background-color: red; */
+}
