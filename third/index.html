@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <title>Responsive Site</title>
+</head>
+<body>
+    <nav class="navbar background height-res">
+        <ul class="nav-list hide-res">
+            <div class="logo">
+                <img src="./img/microsoft.svg" alt="logo">
+            </div>
+            <li><a href = "#home">Home</a></li>
+            <li><a href = "#">About Us</a></li>
+            <li><a href = "#services">Services</a></li>
+            <li><a href = "#contact-us">Contact Us</a></li>
+        </ul>
+        <div class = "right-nav hide-res">
+            <form action="" >
+            <input type="text" name = "search" id = "search">
+            <button class = "btn btn-sm">Search</button>
+            </form>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <main>
+        <section id = "home" class = "background first-section">
+            <div class="box-main">
+                <div class="first-half">
+                    <h1 class="text-big">MateBook Pro</h1>
+                    <p class="text-small">This is the contents of this title. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ad molestiae laborum odit velit cum ex nesciunt</p>
+                        <div class="buttons">
+                            <button class="btn click-me">Click me</button>
+                            <button class="btn buy-now">Buy now</button>
+                        </div>
+                </div>
+                <div class="second-half">
+                    <img src="./img/matebook.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id = "services" class = "sec-right">
+            <h1 class="section-tag ">Story of Mia</h1>
+            <div class="section-box">
+            <p class="section-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eligendi, aliquam cum non sapiente, incidunt ea dicta quidem, modi excepturi commodi et numquam molestiae totam maxime. Sunt alias laudantium eum, excepturi similique vel laboriosam placeat cum dignissimos, neque tempore sint inventore harum? Sed sunt dolorum explicabo excepturi temporibus saepe necessitatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus aliquam sequi impedit necessitatibus, maiores tenetur ipsam optio accusamus amet dolores nisi, aliquid officiis hic? Commodi iste eos nostrum blanditiis id?</p>
+            <div class="sec-img">
+                <img src="./img/bg1.jpg" alt="content">
+            </div>
+            </div>
+        </section>
+        <section class="sec-right">
+            <h2 class="section-tag">Story of Mia</h2>
+            <div class="section-box to-left">
+                <p class="section-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eligendi, aliquam
+                    cum non sapiente, incidunt ea dicta quidem, modi excepturi commodi et numquam molestiae totam maxime. Sunt
+                    alias laudantium eum, excepturi similique vel laboriosam placeat cum dignissimos, neque tempore sint
+                    inventore harum? Sed sunt dolorum explicabo excepturi temporibus saepe necessitatibus? Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Temporibus aliquam sequi impedit necessitatibus, maiores tenetur ipsam
+                    optio accusamus amet dolores nisi, aliquid officiis hic? Commodi iste eos nostrum blanditiis id?</p>
+                <div class="sec-img">
+                    <img src="./img/bg1.jpg" alt="content">
+                </div>
+            </div>
+        </section>
+        <section class="sec-right">
+            <h2 class="section-tag">Story of Mia</h2>
+            <div class="section-box to-left">
+                <p class="section-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati eligendi, aliquam
+                    cum non sapiente, incidunt ea dicta quidem, modi excepturi commodi et numquam molestiae totam maxime. Sunt
+                    alias laudantium eum, excepturi similique vel laboriosam placeat cum dignissimos, neque tempore sint
+                    inventore harum? Sed sunt dolorum explicabo excepturi temporibus saepe necessitatibus? Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Temporibus aliquam sequi impedit necessitatibus, maiores tenetur ipsam
+                    optio accusamus amet dolores nisi, aliquid officiis hic? Commodi iste eos nostrum blanditiis id?</p>
+                <div class="sec-img">
+                    <img src="./img/bg1.jpg" alt="content">
+                </div>
+            </div>
+        </section>
+        <section id = "contact-us" class="contact-us">
+            <h1 class="section-tag">Contact Us</h1>
+            <form action="">
+                <input type="name" id ="name" placeholder="Enter your name">
+                <input type="name" id ="email" placeholder="Enter your E-mail">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter the message"></textarea>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; www.webdesign.com</p>
+        <p class="rights">All rights reserved</p>
+    </footer>
+    <script src="resp.js"></script>
+</body>
+</html>

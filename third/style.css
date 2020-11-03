@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* -----------------Navbar---------------- */
+.navbar {
+  display: flex;
+  position: sticky;
+  /* border: 2px solid greenyellow; */
+  top: 0;
+}
+
+.nav-list {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.nav-list .logo {
+  width: 7%;
+  display: flex;
+  min-width: 40px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: darkblue; */
+  margin-left: 20px;
+  /* border: 2px solid tomato; */
+}
+
+.nav-list .logo img {
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 100%;
+}
+
+.nav-list li {
+  list-style: none;
+  /* background-color: violet; */
+  padding: 15px 30px;
+}
+
+.nav-list li a {
+  /* background-color: aqua; */
+  text-decoration: none;
+  padding: 4px 6px;
+  border-radius: 12px;
+  color: white;
+}
+.nav-list li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.right-nav {
+  /* background-color: crimson; */
+  /* padding: 10px; */
+  width: 50%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 20px;
+}
+
+#search {
+  padding: 3px;
+  border: 2px solid grey;
+  border-radius: 9px;
+  width: 64%;
+}
+.btn {
+  font-family: "Poppins", sans-serif;
+}
+.btn-sm {
+  color: white;
+  border: 1px solid white;
+  padding: 2px 3px;
+  border-radius: 8px;
+  background: rgb(26, 25, 25);
+  font-size: 0.8rem;
+}
+
+.burger {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  background-color: white;
+  height: 2px;
+  margin: 7px 4px;
+}
+
+/*-------------------- Main-------------------- */
+/* Another way to set background with color + img(optional) + opacity */
+.background {
+  background: rgba(26, 17, 17, 0.7) url("./img/bg.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.first-section {
+  height: 100vh;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  /* background-color: brown; */
+  height: 80%;
+  color: white;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  justify-content: space-between;
+  /* border: 2px solid green; */
+}
+
+.first-half {
+  width: 55%;
+  /* background-color: cadetblue; */
+  /* border: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first-half .text-big {
+  font-size: 2.8rem;
+}
+.text-small {
+  /* background-color: burlywood; */
+  font-size: 0.9rem;
+  /* border: 2px solid turquoise; */
+}
+
+.second-half {
+  width: 50%;
+  /* border: 2px solid seashell; */
+}
+
+.second-half img {
+  width: 100%;
+  /* filter: drop-shadow(0px 5px 3px black); */
+  animation: drop 1.5s ease;
+}
+
+.click-me {
+  margin: 0.625em 0.125em;
+  /* margin: 10px 2px; */
+  /* padding: 4px 8px; */
+  padding: 0.25em 0.5em;
+  /* max-width: 1em; */
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 0.45em;
+}
+
+.buy-now {
+  margin: 0.625em 0.125em;
+  padding: 0.25em 0.5em;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 0.45em;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* ---------------------section Right------------- */
+.sec-right {
+  width: 90%;
+  margin: 35px auto;
+  /* border: 2px solid blue; */
+}
+
+.sec-right .section-box {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid turquoise; */
+}
+
+.section-content {
+  width: 77%;
+  display: flex;
+  /* border: 2px solid wheat; */
+}
+
+.sec-right .sec-img {
+  width: 20%;
+  display: flex;
+  /* border: 2px solid green; */
+  align-items: flex-start;
+}
+
+.sec-right img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.section-tag {
+  font-size: 2.3rem;
+}
+
+/* ----------------Contact US ---------------*/
+.contact-us {
+  /* border : 2px solid black; */
+  background: rgb(246, 245, 244, 1);
+  padding: 10px 0px;
+  margin: 15px 0px;
+}
+.contact-us h1 {
+  text-align: center;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  /* border: 2px solid tomato; */
+}
+
+.contact-us input,
+textarea {
+  margin: 10px 0px;
+  padding: 6px 5px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  border: 0.5px solid black;
+}
+
+.contact-us form .btn {
+  width: 20%;
+  cursor: pointer;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  padding: 3px 0px;
+  margin: 10px 0px;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2px 0px;
+}
